@@ -1,0 +1,5 @@
+default 0
+timeout 10
+
+title Aeris v 0.4 BETA 2
+kernel /kernel.bin

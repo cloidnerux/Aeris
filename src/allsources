@@ -1,0 +1,3 @@
+SOURCES = ./video.c ./interrupt.c ./kernel_c.c ./memory.c ./orderdList.c ./gdt.c ./console.c ./system.c ./hardwareIO.c ./stdio.c ./keyboard.c 
+
+ASMSRC = ./memory_asm.asm ./kernel_asm.asm ./interrupt_asm.asm 

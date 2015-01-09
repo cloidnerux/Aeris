@@ -1,0 +1,9 @@
+#!/bin/bash
+export PATH_WAS=$PATH
+export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+
+grub --batch << EOF
+device (fd0) aeris.img
+root (fd0)
+setup (fd0)
+quit
